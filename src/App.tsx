@@ -80,6 +80,7 @@ function App() {
             I may not tick every box, but I won't waste your time. If you want someone who cuts through the noise and gets shit done, we should talk.
           </p>
           <p className="text-xl mb-8">Rob@robmanning.me</p>
+          <p className="text-xl mb-8">linkedin.com/in/manningrob</p>
           <a
             href="mailto:Rob@robmanning.me"
             className="inline-block bg-black text-white px-8 py-3 rounded-md hover:bg-gray-800 transition-colors"
