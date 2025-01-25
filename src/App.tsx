@@ -132,6 +132,51 @@ function App() {
         </div>
       </section>
 
+      {/* Career Timeline Section */}
+      <section className="py-20" id="career">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-16 after:content-[''] after:block after:w-24 after:h-0.5 after:bg-gray-200 after:mx-auto after:mt-4">Career Journey</h2>
+          <div className="relative">
+            {/* Timeline Line */}
+            <div className="hidden md:block absolute left-0 w-full h-0.5 bg-gray-200 top-[54px]" />
+            
+            {/* Timeline Items */}
+            <div className="grid md:grid-cols-5 gap-8">
+              {careerTimeline.map((item, index) => (
+                <div key={index} className="relative">
+                  {/* Content */}
+                  <div className="text-center pt-8">
+                    <div className="inline-flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-black text-white">
+                      <Briefcase className="w-6 h-6" />
+                    </div>
+                    <h3 className="font-bold mb-1">{item.title}</h3>
+                    <a
+                      href={item.companyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 mb-1 hover:text-black transition-colors inline-block"
+                    >
+                      {item.company}
+                    </a>
+                    <p className="text-sm text-gray-500">{item.period}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="text-center mt-16">
+            <a
+              href="https://drive.google.com/file/d/1gcSCE5eMbzLLWeq88ct9sWo0lCJgzeTq/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-black text-white px-8 py-3 rounded-md hover:bg-gray-800 transition-colors"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Accomplishments Section */}
       <section className="py-20" id="accomplishments">
         <div className="max-w-7xl mx-auto px-4">
@@ -157,6 +202,22 @@ function App() {
           <p className="text-lg text-gray-700 mb-8">
             I may not tick every box, but I won't waste your time. If you want someone who cuts through the noise and gets shit done, we should talk.
           </p>
+          <div className="space-y-2 mb-8">
+            <a
+              href="mailto:Rob@robmanning.me"
+              className="text-xl hover:text-gray-600 transition-colors block"
+            >
+              Rob@robmanning.me
+            </a>
+            <a
+              href="https://linkedin.com/in/manningrob"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl hover:text-gray-600 transition-colors"
+            >
+              linkedin.com/in/manningrob
+            </a>
+          </div>
           <div className="space-y-2 mb-8">
             <a
               href="mailto:Rob@robmanning.me"
