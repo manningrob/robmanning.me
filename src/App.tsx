@@ -77,11 +77,17 @@ function App() {
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-700">
-                Some people shy away from problems. I run toward them. Whether it's solving a broken system or creating something better from the ground up, I bring drive, creativity, and grit to the table. I don't dance around issues or sugarcoat the truth. I'm here to get results, plain and simple.
+                Some people shy away from problems. I see them as an open challenge. Whether it’s a broken system, a team that’s lost direction, or a process that just flat-out doesn’t work, I dive in headfirst. I don’t do half-measures, and I don’t waste time with fluff—I fix shit.
               </p>
               <p className="text-lg text-gray-700">
-                Challenges don't intimidate me. In fact, they fuel me. And when I don't know the answer, I'll find it. No bullshit, no excuses—just hard work and smart solutions.
+                I’ve built teams from scratch, turned struggling operations into high-performing machines, and used AI to automate the kind of work most people assume has to be manual. I believe in efficiency, not busywork. In smart solutions, not band-aids. My teams show up energized because I do. I wear my successes and failures on my sleeve and push those around me to take risks, own their work, and be their authentic selves.
               </p>
+               <p className="text-lg text-gray-700">
+                I ask the hard questions. I challenge the status quo. And when there’s a better way, I find it.
+                 </p>
+              <p className="text-lg text-gray-700 font-bold">
+              If you want someone who’s brave enough to stand in a room full of people and say, "I don’t know how to do that. But I will by tomorrow," then we should talk.
+                 </p>
             </div>
           </div>
         </div>
