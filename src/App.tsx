@@ -30,7 +30,13 @@ const careerTimeline = [
     title: "Founder",
     company: "Just One",
     companyUrl: "https://just1.co",
-    period: "2024 - Present"
+    period: "2024 - 2026"
+  },
+  {
+    title: "Sr. Manager Pro Products",
+    company: "Just One",
+    companyUrl: "https://servicetitan.com",
+    period: "2025 - Present"
   }
 ];
 
