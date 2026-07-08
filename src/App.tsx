@@ -3,12 +3,6 @@ import { Briefcase } from 'lucide-react';
 
 const careerTimeline = [
   {
-    title: "Marketing Manager",
-    company: "Editure",
-    companyUrl: "https://generationready.com/",
-    period: "2008 - 2011"
-  },
-  {
     title: "Instructional Designer",
     company: "DMA",
     companyUrl: "https://www.ana.net/",
